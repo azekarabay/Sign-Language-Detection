@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Kaydedilen modeli yükle
-with open('C:/Users/azeka/Desktop/sign_language_detection/hand_gesture_model.pkl', 'rb') as f:
+with open('hand_gesture_model.pkl', 'rb') as f:
     clf = pickle.load(f)
 
 # MediaPipe Hands modelini başlat
