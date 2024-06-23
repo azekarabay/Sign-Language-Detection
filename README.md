@@ -15,10 +15,9 @@ Unlock the power of communication with our Sign Language Detection project! This
 
 ## Requirements
 
-- Python 3.x
-- OpenCV
-- MediaPipe
-- TensorFlow
+- opencv-python==4.7.0.68
+- mediapipe==0.9.0.1
+- scikit-learn==1.2.0
 
 ## Installation
 
