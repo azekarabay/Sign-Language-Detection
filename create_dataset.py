@@ -16,7 +16,7 @@ data = []
 labels = []
 for dir_ in os.listdir(DATA_DIR):
     dir_path = os.path.join(DATA_DIR, dir_)
-    if os.path.isdir(dir_path):  # Sadece dizinleri işle
+    if os.path.isdir(dir_path): 
         for img_path in os.listdir(dir_path):
             data_aux = []
 
