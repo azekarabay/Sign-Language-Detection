@@ -5,14 +5,12 @@ DATA_DIR = './data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-# Alfabe için sınıf sayısını belirleyin
-number_of_classes = 26  # 26 harf
+number_of_classes = 26  
 
-dataset_size = 100  # Her sınıf için veri sayısı
+dataset_size = 100  
 
 cap = cv2.VideoCapture(0)
 for j in range(number_of_classes):
-    # Harfler için sınıf adı
     class_name = chr(ord('A') + j)
 
     class_dir = os.path.join(DATA_DIR, class_name)
